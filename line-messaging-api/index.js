@@ -2,6 +2,7 @@
 const line = require('@line/bot-sdk');
 const express = require('express');;
 const config = require('./config.json');
+const service = require('./service');
 const client = new line.Client(config);
 
 async function handleEvent(event) {
@@ -55,7 +56,7 @@ async function handleEvent(event) {
   }
 }
 
-function handleText(message, event) {
+async function handleText(message, event) {
   return client.replyMessage(event.replyToken, { type: 'text', text: message.text });
 }
 

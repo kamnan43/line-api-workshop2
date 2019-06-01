@@ -1,5 +1,12 @@
 {
   "port": "3000",
   "channelAccessToken": "pAnoaKAkhwXZVn0uPpPzQlmF7ZOShFy9e2mC8GpwOeX2XNbS84iJLc/IAbO8mYcp2jjXMPkAWphb3YiJfINxFu0rCnoLSZ3k6VdoaGzy51GaW56vy/HII7snA9D21D+21mNswOQUBIPH3EQCwbwvAgdB04t89/1O/w1cDnyilFU=",
-  "channelSecret": "39e11d2c42f12228ecd6bf56abf633c9"
+  "channelSecret": "39e11d2c42f12228ecd6bf56abf633c9",
+  "mysql": {
+    "host": "remotemysql.com",
+    "port": 3306,
+    "username": "Pzr1V2C8m6",
+    "password": "fRpDS8XICb",
+    "database": "Pzr1V2C8m6"
+  }
 }
