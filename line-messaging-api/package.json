@@ -1,0 +1,25 @@
+{
+  "name": "line-bot-nodejs-starter",
+  "version": "1.0.0",
+  "description": "starter point to create new line bot project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "line",
+    "bot",
+    "messaging-api"
+  ],
+  "author": "Sitthi Thiammekha",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.2.1",
+    "express": "^4.16.3",
+    "request-promise": "^4.2.4"
+  }
+}

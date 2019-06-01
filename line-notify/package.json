@@ -1,0 +1,17 @@
+{
+  "name": "lineapi-workshop-notify-nodejs",
+  "version": "1.0.0",
+  "description": "LINE Notify code sample for LINE API Workshop",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sitthi",
+  "license": "ISC"
+}

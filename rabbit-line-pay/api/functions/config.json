@@ -1,0 +1,21 @@
+{
+  "line": {
+    "channelAccessToken": "pAnoaKAkhwXZVn0uPpPzQlmF7ZOShFy9e2mC8GpwOeX2XNbS84iJLc/IAbO8mYcp2jjXMPkAWphb3YiJfINxFu0rCnoLSZ3k6VdoaGzy51GaW56vy/HII7snA9D21D+21mNswOQUBIPH3EQCwbwvAgdB04t89/1O/w1cDnyilFU=",
+    "channelSecret": "39e11d2c42f12228ecd6bf56abf633c9"
+  },
+  "linepay": {
+    "api": "https://sandbox-api-pay.line.me",
+    "channelId": "1634637036",
+    "channelSecret": "e4804d3d1a51bb8a01058ffd76ecf9fd"
+  },
+  "firebase": {
+    "apiKey": "",
+    "authDomain": "sitthi-linepay-demo.firebaseapp.com",
+    "databaseURL": "https://sitthi-linepay-demo.firebaseio.com",
+    "projectId": "sitthi-linepay-demo",
+    "storageBucket": "sitthi-linepay-demo.appspot.com",
+    "serviceAccountFile": "./firebase-admin-key.json"
+  },
+  "apiUrl": "https://us-central1-sitthi-linepay-demo.cloudfunctions.net",
+  "webUrl": "https://sitthi-linepay-demo.firebaseapp.com"
+}
