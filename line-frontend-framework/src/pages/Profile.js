@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import man from '../assets/img/man.png';
 import liffHelper from '../utils/liffHelper';
-import QrReader from 'react-qr-reader';
 
 export default class Profile extends Component {
   constructor(props) {
@@ -61,12 +60,6 @@ export default class Profile extends Component {
           <div className="col-lg-3" />
         </div>
         <div className="page-content">
-          <QrReader
-            delay={300}
-            onError={this.handleError}
-            onScan={this.handleScan}
-            style={{ width: '100%' }}
-          />
           <p>{this.state.result}</p>
         </div>
       </div>
